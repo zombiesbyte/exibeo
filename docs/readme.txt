@@ -1,6 +1,6 @@
 Exibeo Ver 1.0
 
-Hi and welcome to exibeo (latin for display or show).
+Hi and welcome to exibeo (Latin for display or show).
 
 I developed this simple app because I couldn't find any others out there
 that had a simplistic easy to use (and setup) functionality.
@@ -12,11 +12,11 @@ tried to make this a flexible (and passive) as possible.
 
 Please note that albums contained within the photos folder should only be
 1 level deep. 'captions', 'movies' and 'thumbs' folders are not required
-however having and using these options can provide a greater user experience.
+however, having and using these options can provide a greater user experience.
 
 Folder naming should be kept to letters and numbers (no spaces) but using
 a dash/hyphen symbol '-' for word breaking will be replaced with a space
-within the app. Also note that all words are given a captial at the start
+within the app. Also note that all words are given a capital at the start
 within the app so you can use all lowercase folder names within the structure.
 
 It is advised that you read the readme.txt files within the 'thumbs' and
@@ -28,7 +28,7 @@ users and rights files which control the user rights to viewing certain
 albums.
 
 This project is protected under general MTT guidelines shown in the license.txt
-file. In short; you may use, distrobute, change, resell so long as the original
+file. In short; you may use, distribute, change, resell so long as the original
 license holder is acknowledged and the existing license integrity is protected.
 
 Setup instructions
@@ -56,7 +56,7 @@ following code block:
 
 Within your hosts file in C:\Windows\System32\drivers\etc\hosts you may need to
 make sure you can write to this file (most security software stops anything from
-making changes to this file but there should be a setting to allow you temporaty
+making changes to this file but there should be a setting to allow you temporary
 access). The following entry needs to be included:
 
 127.0.0.1	exibeo.home
@@ -71,9 +71,9 @@ To find your internal IP address, use ipconfig command from Windows Command Line
 the router or within Windows (although the router method is more reliable).
 
 Please note: exibeo.home can be changed to anything you like (just use something
-that isn't going to interfer with external websites i.e. don't use google.com :D)
+that isn't going to interfere with external websites i.e. don't use google.com :D)
 
-I'm going to presume that most of this information is verbos but I include it to
+I'm going to presume that most of this information is verbose but I include it to
 anyway. Linux and Mac setups are outside the scope of this documentation but there
 should be enough here to align them to this setup.
 
@@ -91,7 +91,7 @@ A:	Linux is a caSe-SenSiTive environment (this is a good thing) but may cause
 	i.e. /myImage.JPG >> /thumbs/myImage.jpg will not match
 	
 	In this case you need to use something like ren *.jpg *.JPG in windows
-	command line within the thumbs directory or similar for linux
+	command line within the thumbs directory or similar for Linux
 
 
 Q:	What movie types can I include in my 'movies' folder?
@@ -100,7 +100,7 @@ A:	The movies supported are generally the HTML5 <video> tag list but
 	depending on how these are encoded can make a difference. I used Windows
 	Movie Maker to re-save them under a 'YouTube' type export under Windows 10.
 	This application is from Windows 7 I believe and can be installed using
-	the Windows Esential Package:
+	the Windows Essential Package:
 	
 	http://windows.microsoft.com/en-gb/windows/essentials
 
@@ -112,7 +112,7 @@ A:	Within the /docs/templates folder you should have a folder called photos.
 	include all the albums you wish to make available (if a album folder name is
 	excluded from this list, not even admin will see it). There is further
 	instructions included in list.php to explain how to add section titles and
-	even a emoticon character.
+	even an emoticon character.
 
 
 Q:	Is this a secure area for my photos?
@@ -120,7 +120,7 @@ Q:	Is this a secure area for my photos?
 A:	The intention of this web app was to present a collection of albums to a user
 	based on their login information. Although the albums that are not included
 	for a particular login are hidden, it is still possible for anyone to access
-	the folder should they have to tools and know-how to retreive information from
+	the folder should they have to tools and know-how to retrieve information from
 	a directory scan. In short, generally your photos won't be found but they
 	would not be secure. This will be a greater concern if this is going to be a
 	public server.
