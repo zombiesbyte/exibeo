@@ -1,0 +1,99 @@
+emot{
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	margin: -30px 0;
+	margin-right: 10px;	
+}
+
+/*The Blacy! Collection*/
+/*Thanks to: POPO Emoticons - Copyright & Reserved by Netease [Author: Rokey | Website: www.rokey.net]*/
+emot.popo-blacy-amazing{ background-image: url('/core/emoticons/The_Blacy!/amazing.png'); }
+emot.popo-blacy-anger{ background-image: url('/core/emoticons/The_Blacy!/anger.png'); }
+emot.popo-blacy-bad-egg{ background-image: url('/core/emoticons/The_Blacy!/bad_egg.png'); }
+emot.popo-blacy-bad-smile{ background-image: url('/core/emoticons/The_Blacy!/bad_smile.png'); }
+emot.popo-blacy-beaten{ background-image: url('/core/emoticons/The_Blacy!/beaten.png'); }
+emot.popo-blacy-big-smile{ background-image: url('/core/emoticons/The_Blacy!/big_smile.png'); }
+emot.popo-blacy-black-heart{ background-image: url('/core/emoticons/The_Blacy!/black_heart.png'); }
+emot.popo-blacy-cry{ background-image: url('/core/emoticons/The_Blacy!/cry.png'); }
+emot.popo-blacy-electric-shock{ background-image: url('/core/emoticons/The_Blacy!/electric_shock.png'); }
+emot.popo-blacy-exciting{ background-image: url('/core/emoticons/The_Blacy!/exciting.png'); }
+emot.popo-blacy-eyes-droped{ background-image: url('/core/emoticons/The_Blacy!/eyes_droped.png'); }
+emot.popo-blacy-girl{ background-image: url('/core/emoticons/The_Blacy!/girl.png'); }
+emot.popo-blacy-greedy{ background-image: url('/core/emoticons/The_Blacy!/greedy.png'); }
+emot.popo-blacy-grimace{ background-image: url('/core/emoticons/The_Blacy!/grimace.png'); }
+emot.popo-blacy-haha{ background-image: url('/core/emoticons/The_Blacy!/haha.png'); }
+emot.popo-blacy-happy{ background-image: url('/core/emoticons/The_Blacy!/happy.png'); }
+emot.popo-blacy-horror{ background-image: url('/core/emoticons/The_Blacy!/horror.png'); }
+emot.popo-blacy-money{ background-image: url('/core/emoticons/The_Blacy!/money.png'); }
+emot.popo-blacy-nothing{ background-image: url('/core/emoticons/The_Blacy!/nothing.png'); }
+emot.popo-blacy-nothing-to-say{ background-image: url('/core/emoticons/The_Blacy!/nothing_to_say.png'); }
+emot.popo-blacy-red-heart{ background-image: url('/core/emoticons/The_Blacy!/red_heart.png'); }
+emot.popo-blacy-scorn{ background-image: url('/core/emoticons/The_Blacy!/scorn.png'); }
+emot.popo-blacy-secret-smile{ background-image: url('/core/emoticons/The_Blacy!/secret_smile.png'); }
+emot.popo-blacy-shame{ background-image: url('/core/emoticons/The_Blacy!/shame.png'); }
+emot.popo-blacy-shocked{ background-image: url('/core/emoticons/The_Blacy!/shocked.png'); }
+emot.popo-blacy-super-man{ background-image: url('/core/emoticons/The_Blacy!/super_man.png'); }
+emot.popo-blacy-the-iron-man{ background-image: url('/core/emoticons/The_Blacy!/the_iron_man.png'); }
+emot.popo-blacy-unhappy{ background-image: url('/core/emoticons/The_Blacy!/unhappy.png'); }
+emot.popo-blacy-victory{ background-image: url('/core/emoticons/The_Blacy!/victory.png'); }
+emot.popo-blacy-what{ background-image: url('/core/emoticons/The_Blacy!/what.png'); }
+
+/*The Standard Yellow Collection*/
+/*Thanks to: POPO Emoticons - Copyright & Reserved by Netease [Author: Rokey | Website: www.rokey.net]*/
+emot.popo-yellow-adore{ background-image: url('/core/emoticons/popo/adore.png'); }
+emot.popo-yellow-after-boom{ background-image: url('/core/emoticons/popo/after_boom.png'); }
+emot.popo-yellow-ah{ background-image: url('/core/emoticons/popo/ah.png'); }
+emot.popo-yellow-amazed{ background-image: url('/core/emoticons/popo/amazed.png'); }
+emot.popo-yellow-angry{ background-image: url('/core/emoticons/popo/angry.png'); }
+emot.popo-yellow-bad-smelly{ background-image: url('/core/emoticons/popo/bad_smelly.png'); }
+emot.popo-yellow-baffle{ background-image: url('/core/emoticons/popo/baffle.png'); }
+emot.popo-yellow-beated{ background-image: url('/core/emoticons/popo/beated.png'); }
+emot.popo-yellow-beat-brick{ background-image: url('/core/emoticons/popo/beat_brick.png'); }
+emot.popo-yellow-beat-plaster{ background-image: url('/core/emoticons/popo/beat_plaster.png'); }
+emot.popo-yellow-beat-shot{ background-image: url('/core/emoticons/popo/beat_shot.png'); }
+emot.popo-yellow-beauty{ background-image: url('/core/emoticons/popo/beauty.png'); }
+emot.popo-yellow-big-smile{ background-image: url('/core/emoticons/popo/big_smile.png'); }
+emot.popo-yellow-boss{ background-image: url('/core/emoticons/popo/boss.png'); }
+emot.popo-yellow-burn-joss-stick{ background-image: url('/core/emoticons/popo/burn_joss_stick.png'); }
+emot.popo-yellow-byebye{ background-image: url('/core/emoticons/popo/byebye.png'); }
+emot.popo-yellow-canny{ background-image: url('/core/emoticons/popo/canny.png'); }
+emot.popo-yellow-choler{ background-image: url('/core/emoticons/popo/choler.png'); }
+emot.popo-yellow-cold{ background-image: url('/core/emoticons/popo/cold.png'); }
+emot.popo-yellow-confident{ background-image: url('/core/emoticons/popo/confident.png'); }
+emot.popo-yellow-confuse{ background-image: url('/core/emoticons/popo/confuse.png'); }
+emot.popo-yellow-cool{ background-image: url('/core/emoticons/popo/cool.png'); }
+emot.popo-yellow-cry{ background-image: url('/core/emoticons/popo/cry.png'); }
+emot.popo-yellow-doubt{ background-image: url('/core/emoticons/popo/doubt.png'); }
+emot.popo-yellow-dribble{ background-image: url('/core/emoticons/popo/dribble.png'); }
+emot.popo-yellow-embarrassed{ background-image: url('/core/emoticons/popo/embarrassed.png'); }
+emot.popo-yellow-extreme-sexy-girl{ background-image: url('/core/emoticons/popo/extreme_sexy_girl.png'); }
+emot.popo-yellow-feel-good{ background-image: url('/core/emoticons/popo/feel_good.png'); }
+emot.popo-yellow-go{ background-image: url('/core/emoticons/popo/go.png'); }
+emot.popo-yellow-haha{ background-image: url('/core/emoticons/popo/haha.png'); }
+emot.popo-yellow-hell-boy{ background-image: url('/core/emoticons/popo/hell_boy.png'); }
+emot.popo-yellow-hungry{ background-image: url('/core/emoticons/popo/hungry.png'); }
+emot.popo-yellow-look-down{ background-image: url('/core/emoticons/popo/look_down.png'); }
+emot.popo-yellow-matrix{ background-image: url('/core/emoticons/popo/matrix.png'); }
+emot.popo-yellow-misdoubt{ background-image: url('/core/emoticons/popo/misdoubt.png'); }
+emot.popo-yellow-nosebleed{ background-image: url('/core/emoticons/popo/nosebleed.png'); }
+emot.popo-yellow-oh{ background-image: url('/core/emoticons/popo/oh.png'); }
+emot.popo-yellow-ops{ background-image: url('/core/emoticons/popo/ops.png'); }
+emot.popo-yellow-pudency{ background-image: url('/core/emoticons/popo/pudency.png'); }
+emot.popo-yellow-rap{ background-image: url('/core/emoticons/popo/rap.png'); }
+emot.popo-yellow-sad{ background-image: url('/core/emoticons/popo/sad.png'); }
+emot.popo-yellow-sexy-girl{ background-image: url('/core/emoticons/popo/sexy_girl.png'); }
+emot.popo-yellow-shame{ background-image: url('/core/emoticons/popo/shame.png'); }
+emot.popo-yellow-smile{ background-image: url('/core/emoticons/popo/smile.png'); }
+emot.popo-yellow-spiderman{ background-image: url('/core/emoticons/popo/spiderman.png'); }
+emot.popo-yellow-still-dreaming{ background-image: url('/core/emoticons/popo/still_dreaming.png'); }
+emot.popo-yellow-sure{ background-image: url('/core/emoticons/popo/sure.png'); }
+emot.popo-yellow-surrender{ background-image: url('/core/emoticons/popo/surrender.png'); }
+emot.popo-yellow-sweat{ background-image: url('/core/emoticons/popo/sweat.png'); }
+emot.popo-yellow-sweet-kiss{ background-image: url('/core/emoticons/popo/sweet_kiss.png'); }
+emot.popo-yellow-tire{ background-image: url('/core/emoticons/popo/tire.png'); }
+emot.popo-yellow-too-sad{ background-image: url('/core/emoticons/popo/too_sad.png'); }
+emot.popo-yellow-waaaht{ background-image: url('/core/emoticons/popo/waaaht.png'); }
+emot.popo-yellow-what{ background-image: url('/core/emoticons/popo/what.png'); }

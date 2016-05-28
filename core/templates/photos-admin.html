@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<title>Exibeo</title>
+
+		<!-- Bootstrap + Styles-->
+		<link href="/core/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/core/css/default_style.css" rel="stylesheet">
+		<link href="/core/css/media_style.css" rel="stylesheet">
+		<link href="/core/css/emoticons.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		
+		<div class="exibeoBox">
+			<div class="blackOut">
+				<div class="container-fluid overlay">
+					<div class="row">
+						<div class="hidden-xs col-sm-1 col-md-1 col-lg-1"></div>
+						<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 contentBox center-block">
+							<img id="blurEffect" src="" class="img-responsive">
+							<img id="exibeoBoxImg" src="" class="img-responsive">
+							<img id="loadingImg" src="/core/logos/loader.gif" class="img-responsive" width="100" height="100">
+							<div id="photoCaptionBox"></div>
+							<div id="editCaption">
+								<div class="form-group">
+									<label for="rights">Edit Caption</label>
+									<textarea name="caption" id="caption" class="form-control" rows="5"></textarea>
+								</div>
+								<div class="form-group">
+									<button id="saveCaption" class="btn btn-default">Save Caption</button>
+								</div>
+							</div>							
+							<div id="lastPhotoBtn"><i class="glyphicon glyphicon-menu-left"></i></div>
+							<div id="nextPhotoBtn"><i class="glyphicon glyphicon-menu-right"></i></div>
+							<i class="glyphicon glyphicon-remove closeExibeoBoxBtn" data-toggle="tooltip" data-placement="bottom" title="Close"></i>
+						</div>
+						<div class="hidden-xs col-sm-1 col-md-1 col-lg-1">
+							
+						</div>
+					</div>
+				</div><!--container-fluid-->
+			</div><!--blackOut-->
+		</div><!--exibeoBox-->
+
+		<div class="page">
+			<div class="container-fluid">
+				
+				<div class="row">
+					
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 header">
+						<div class="dropdown">
+							<a id="drop4" href="#" class="btn btn-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Menu <i class="caret"></i> </a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								<li><a> Show Captions <input type="checkbox" id="showCaptions" value="y"></a></li>
+								<li><a> Edit Captions <input type="checkbox" id="editCaptions" value="y"></a></li>
+								{menuItems}
+							</ul>
+						</div><!--dropdown-->
+					</div>            
+					
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 header">             
+						<img src="/core/logos/exibeo_small.png" data-toggle="tooltip" data-placement="bottom" title="Copyright &copy; ZombiesByte 2016<br>Version 1.0" class="appLogo">
+					</div>
+
+					<div class="hidden-xs col-sm-4 col-md-4 col-lg-4  header">
+						<img src="/core/logos/zombiesbyte_small.png" class="devLogo">
+					</div>
+				</div><!--row-->
+		
+				<div class="row content">
+					{tiles}
+				</div><!--row-->
+	
+			</div><!--container-fluid-->
+		</div><!--page-->	
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/core/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="/core/js/affect.js"></script>
+	</body>
+</html>

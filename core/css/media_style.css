@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+	.header .appLogo {
+		float: right;
+	}
+	.content {
+		margin-bottom: 100px;
+	}
+	.content .breadCrumbs {
+		position: absolute;
+		z-index: 100;
+		right: 0;
+		left: 0;
+	}
+	.content .albumPhoto {
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: auto;
+		height : 80vh;
+		margin-top: 5px;
+	}
+
+}

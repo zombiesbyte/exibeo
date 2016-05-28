@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<title>Exibeo</title>
+
+		<!-- Bootstrap + Styles-->
+		<link href="/core/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/core/css/default_style.css" rel="stylesheet">
+		<link href="/core/css/media_style.css" rel="stylesheet">
+		<link href="/core/css/emoticons.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<div class="page">
+			<div class="container-fluid">
+				
+				<div class="row">
+					
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 header">
+						<div class="dropdown">
+							<a id="drop4" href="#" class="btn btn-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Menu <i class="caret"></i> </a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								{menuItems}
+							</ul>
+						</div><!--dropdown-->
+					</div>            
+					
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 header">             
+						<img src="/core/logos/exibeo_small.png" data-toggle="tooltip" data-placement="bottom" title="Copyright &copy; ZombiesByte 2016<br>Version 1.0" class="appLogo">
+					</div>
+
+					<div class="hidden-xs col-sm-4 col-md-4 col-lg-4  header">
+						<img src="/core/logos/zombiesbyte_small.png" class="devLogo">
+					</div>
+				</div><!--row-->
+		
+				<div class="row content">
+					{tiles}
+				</div><!--row-->
+	
+			</div><!--container-fluid-->
+		</div><!--page-->	
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/core/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="/core/js/affect.js"></script>
+	</body>
+</html>

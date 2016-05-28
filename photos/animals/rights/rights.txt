@@ -1,0 +1,10 @@
+#Set each username on a line of its own to allow access
+#Please make sure that the username characters match exactly and that there is
+#no whitespace at the start or end of each entry. Empty lines will be ignored as
+#well as lines such as this that start with a hash/number character.
+#Rights files do not apply to 'admin'
+
+
+
+
+

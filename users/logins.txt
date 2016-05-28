@@ -1,0 +1,15 @@
+#username password (username<space>password)
+#please note
+#usernames consist of A to Z (upper or lowercase) 0 to 9 and _ (underscores) only!
+#passwords can contain A-Za-z0-9:@~.,!&*()_/-+=? only
+
+#Admin (special rights)
+#Remember to change this login password
+admin admin
+
+#public users
+public public
+
+
+
+
